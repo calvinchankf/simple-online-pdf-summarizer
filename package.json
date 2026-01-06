@@ -1,0 +1,13 @@
+{
+  "name": "pdf-summarizer",
+  "version": "0.1.0",
+  "description": "Node.js starter repo to summarize PDFs with OpenAI file search",
+  "type": "module",
+  "scripts": {
+    "summarize": "node summarize.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.73.0"
+  }
+}
